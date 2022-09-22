@@ -1,16 +1,25 @@
+/* My standard colors:
+    Lightest/Text: #EDFCDC
+    Darkest Green: #799E4F
+    Middle Green: #BFEB8D
+    Dark purple: #903F9E
+    Light purple: #DD8DEB
+
+*/
+
 body {
-    background-color: lightblue;
+    background-color: #BFEB8D;
 }
 
 h1 {
-    color: #7f7fb8;
+    color: #799E4F;
     margin-left: 20px;
     font-family: Georgia;
     text-align: center;
 }
 
 h2 {
-    color: #7f7fb8;
+    color: #799E4F;
     margin-left: 20px;
     font-family: Georgia;
     text-align: left;
@@ -22,7 +31,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: rgb(86, 119, 168);
+    background-color: #903F9E;
 }
 
 li {
@@ -31,16 +40,20 @@ li {
 
 li a {
     display: block;
-    color: white;
+    color: #EDFCDC;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
-li a:hover {
-    background-color: #111;
+li a:hover:not(.active) {
+    background-color: #DD8DEB;
 }
 
 .active {
-    background-color: #04AA6D;
+    background-color: #799E4F;
+}
+
+link {
+    color: white;
 }
