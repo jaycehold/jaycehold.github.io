@@ -14,6 +14,7 @@
 
 body {
     background-color: #ECC5A8;
+    font-family: Georgia;
 }
 
 h1 {
@@ -30,11 +31,20 @@ h2 {
     text-align: left;
 }
 
-p {
-    color: #372F18;
-    margin-left: 40px;
+h3 {
+    color: #771B0C;
+    margin-left: 45px;
     font-family: Georgia;
     text-align: left;
+}
+
+p {
+    color: #372F18;
+    font-family: Georgia;
+    text-align: left;
+    margin-left: 100px;
+    margin-right: 1000px;
+    line-height: 25px;
 }
 
 /* header bar */
@@ -44,6 +54,8 @@ p {
     font-family: Georgia;
     padding: 15px;
     font-size: 24px;
+    max-width: 1780px;
+    min-width: fit-content;
 }
 
 #navbar a {
@@ -57,7 +69,7 @@ p {
 }
 
 
-/* header bar */
+/* contact bar */
 #contact-bar {
     margin-left: 50px;
     font-family: Georgia;
@@ -71,5 +83,32 @@ p {
 }
 
 #contact-bar a:hover {
+    color: wheat;
+}
+
+/*About page list*/
+#fav-list ul {
+    list-style-type: square;
+    font-family: Georgia;
+    font-size: 18px;
+    line-height: 30px;
+    margin-left: 80px;
+}
+
+/*Experience page list*/
+#list-ex ul {
+    list-style-type: none;
+    font-family: Georgia;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+#list-ex a {
+    color: #372F18;
+    text-decoration: none;
+    padding-right: 30px;
+}
+
+#list-ex a:hover {
     color: wheat;
 }
